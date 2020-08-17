@@ -19,3 +19,20 @@
     color: #4F5965;
 }
 
+.section{
+    padding: 26px 75px 45px;
+    background-color:#F2F2F2;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.slider-img{
+    width: 305px;
+    height: 190px;
+}
+
