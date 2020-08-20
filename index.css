@@ -27,12 +27,67 @@
 .images{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     justify-content: space-evenly;
 }
 
 .slider-img{
     width: 305px;
     height: 190px;
+}
+
+.section2{
+    display: flex;
+    width: 100%;
+}
+
+.article{
+    display: flex;
+    width: 70%; 
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #aa1414;*/
+}
+
+.div{
+    display:flex;
+    width: 582px; 
+    height: 565px;
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.margin_title{
+    margin-bottom: 6%;
+}
+
+.margin_paragraph{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.aside{
+    display: flex;
+    justify-content: end;
+    width: 30%;
+    flex-direction: column;
+    
+}
+
+.margin_title_aside{
+    margin-top: 17%;
+    margin-left: 20%
+}
+
+.margin_aside{
+    margin-top: 10%;
+    margin-left: 15%
+}
+
+.margin_paragraph_aside{
+    margin-top: 10%;
+    margin-left: 10%
 }
 
